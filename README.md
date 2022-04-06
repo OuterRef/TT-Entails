@@ -14,7 +14,7 @@
 
 - Big letter + numbers recommended.
 
-- Reserved variables: 'True', 'False' as well as all the operands.
+- Reserved variables: 'True', 'False' as well as all the operators.
 
 ## Usage
 
@@ -24,16 +24,16 @@
 
 - The result is a bool, telling you whether KB entails alpha or not
 
-## Operands
+## Operators
 
-| Operand | priority |
-| :-----: | :------: |
-|   ()    |    0     |
-|   not   |    1     |
-|   and   |    2     |
-|   or    |    3     |
-|   iff   |    4     |
-|   if    |    4     |
+| Operator | priority |
+| :-----:  | :------: |
+|   ()     |    0     |
+|   not    |    1     |
+|   and    |    2     |
+|   or     |    3     |
+|   iff    |    4     |
+|   if     |    4     |
 
 ## Example
 
