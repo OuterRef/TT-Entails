@@ -1,0 +1,6 @@
+not P11
+B11 iff      (P12 or P21)
+B21 iff (P11 or P22 or P31)
+not B11
+
+B21
