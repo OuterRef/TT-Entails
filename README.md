@@ -2,7 +2,7 @@
 
 ## Brief
 
-- See if KB (knowledge base) entails $\alpha$, i.e. can $\alpha$ be deduced from known evidence (observation and rules)
+- See if KB (knowledge base) entails alpha, i.e. can alpha be deduced from known evidence (observation and rules)
 
 ## Syntax
 
@@ -18,11 +18,11 @@
 
 ## Usage
 
-- Input KB in KB.txt, and $\alpha$ in alpha.txt in accordance with required syntax
+- Input KB in KB.txt, and alpha in alpha.txt in accordance with required syntax
 
 - run `python ./main.py` (Python version: 3.10.0)
 
-- The result is a bool, telling you whether KB entails $\alpha$ or not
+- The result is a bool, telling you whether KB entails alpha or not
 
 ## Operands
 
