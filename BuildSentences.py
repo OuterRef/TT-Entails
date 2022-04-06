@@ -51,7 +51,7 @@ def toRPN(tokens: list) -> list:
     op = ["#"]  # S1
     var = []    # S2
     for token in tokens:
-        if token in PRIORITY_DICT:  # it is an operand
+        if token in PRIORITY_DICT:  # it is an operator
             if token == "(":
                 # push 
                 op.append(token)
@@ -88,7 +88,7 @@ def RPN2Tree(var: list) -> LogicalExpression:
         if node.symbol is not None:  # a leaf node
             # push
             result.append(node)
-        else:                        # an operand
+        else:                        # an operator
             # do "the operation"
             if node.connective == "not":
                 result.append(theOperation(node, [result.pop(-1)]))
